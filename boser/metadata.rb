@@ -1,0 +1,10 @@
+name             'boser'
+maintainer       'Verny Quartara'
+maintainer_email 'webny23@gmail.com'
+license          'all_rights'
+description      'Installs/Configures boser'
+long_description 'Installs/Configures boser'
+version          '0.1.0'
+
+depends 'apt'
+depends 'tomcat'
