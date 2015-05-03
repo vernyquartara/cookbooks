@@ -2,4 +2,7 @@ source "https://supermarket.chef.io"
 
 metadata
 cookbook 'java', '~> 1.31.0'
-cookbook 'tomcat', '~> 0.17.3'
+#cookbook 'tomcat', '~> 0.17.3'
+
+#utilizzo di un community cookbook non presente in supermarket - vedi metadata.rb
+cookbook "file", git: "https://github.com/jenssegers/chef-file.git"

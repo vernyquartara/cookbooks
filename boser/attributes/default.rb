@@ -1,3 +1,1 @@
-override['tomcat']['base_version'] = 7
-override['tomcat']['port'] = 80
-override['tomcat']['java_options'] = '-Xmx512M'
+node.default['boser']['db']['dburl'] = 'quartara.cirpu298n17l.eu-central-1.rds.amazonaws.com'

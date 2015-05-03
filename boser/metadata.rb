@@ -7,5 +7,5 @@ long_description 'Installs/Configures boser'
 version          '0.1.0'
 
 depends 'apt'
-depends 'tomcat'
-depends 'mysql', '~> 6.0'
+#se non si dichiara la dipendenza al cookbook, le risorse contenute sono visibili - vedi Berksfile
+depends 'file'
